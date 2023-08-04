@@ -27,6 +27,8 @@ header h1 {
     margin: 2px;
     padding: 5x;
     font-size: 25px;
+    color: rgb(33, 143, 129);
+    font-size: 30px;
 }
 main {
     padding: 2rem;
@@ -91,4 +93,30 @@ img{
     margin-left: auto;
     margin-right: auto;
   
+}
+video{
+    margin-left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(183, 167, 202);
+    background-size: cover;
+    object-fit: fill;
+    border-radius: 20px;
+    display: flex;
+    transition: 0.5s;
+}
+.v{
+    text-align: center;
+    color: rgb(29, 162, 164);
+    transition: 0.8s;
+    display: block;
+   
+}
+.vide:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+
 }
